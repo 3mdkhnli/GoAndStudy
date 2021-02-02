@@ -1,0 +1,296 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    list-style: none!important;
+}
+
+nav {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+nav > .inner {
+    width: 100%;
+    max-width: 1920px;
+    height: 140px;
+    background: #339BD6;
+    padding: 0 4%;  
+    display: flex;
+    align-items: center;  
+}
+
+nav .navbar_logo {
+    width: 179px;
+    height: 88.35px;
+    background: url(../assets/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+nav .info {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    margin-left: 3%;
+}
+
+nav .info > .icon {
+    width: 41.8px;
+    height: 41.8px;
+    background: url(../assets/icons/whatsapp-brands.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav .info > span {
+    font-size: 34px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+nav .get_info {
+    font-size: 34px;
+    color: #FFD129;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+nav .lang_bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+nav .lang_bar a {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 100%;
+}
+
+nav .lang_bar a span {
+    display: none;
+}
+
+nav .lang_bar a:nth-child(1), nav .lang_bar a:nth-child(2) {
+    margin-right: 10px;
+}
+
+nav .lang_bar a .icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+nav .lang_bar .az .icon {
+    background: url(../assets/flags/az.svg)
+}
+
+nav .lang_bar .en .icon {
+    background: url(../assets/flags/uk.svg)
+}
+
+nav .lang_bar .ru .icon {
+    background: url(../assets/flags/ru.svg)
+}
+
+.choosen_lang {
+    width: 90.6px!important;
+    height: 34.5px!important;
+    background: #fff!important;
+    border-radius: 16px!important;
+}
+
+nav .lang_bar .choosen_lang span {
+    display: block!important;
+    font-size: 20px;
+    font-family: Montserrat-bold;
+    color: #707070;
+    margin-left: 15px;
+}
+
+nav .social {
+    margin-left: 4%;
+}
+
+nav .social a:nth-child(1), nav .social a:nth-child(2) {
+    margin-right: 10px;
+}
+
+.trans_nav {
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    position: absolute;
+    top: 140px;
+}
+
+.trans_nav > ul {
+    width: 100%;
+    max-width: 1920px;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+}
+
+.trans_nav > ul a {
+    padding: 10px;
+    border-radius: 37px;
+    background: #339BD6;
+    transition: all 0.1s;
+    font-size: 17px;
+    font-family: Montserrat-bold;
+    color: #fff;
+}
+
+.trans_nav > ul a:hover {
+    background: #29C4FF;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .inner {
+    width: 100%;
+    max-width: 1920px;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    background: #339BD6;
+    transform: translateY(18vw);
+    align-items: center;
+    padding-top: 3.22vw;
+}
+
+.footer > .inner > .bg {
+    width: 100%;
+    height: 46vw;
+    background: url(../assets/bg/header-bg\ 2.svg);
+    max-width: 1920px;
+    position: absolute;
+    z-index: 1;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+
+.footer .footer_nav {
+    width: 64.8vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.footer .footer_nav > .inner {
+    width: 48vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer_nav > .logo {
+    width: 10vw;
+    height: 4.9vw;
+    background: url(../assets/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer .footer_nav > .inner > a {
+    font-size: 0.88vw;
+    font-family: Montserrat-bold;
+    color: #fff;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.footer .places {
+    width: 64.8vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: 3vw;
+}
+
+.footer .places .place_name {
+    font-size: 1.66vw;
+    font-family: Montserrat-medium;
+    color: #fff!important;
+    margin-bottom: 0.5vw;
+}
+
+.footer .places ul li {
+    font-size: 0.94vw;
+    font-family: Montserrat-medium;
+    color: #fff!important;
+    line-height: 2;
+}
+
+.footer .copy_right {
+    display: flex;
+    margin-top: 1vw;
+    font-size: 0.94vw;
+    font-family: Montserrat-light;
+    color: #fff;
+    z-index: 2;
+}
+
+.footer .social {
+    display: flex;
+    justify-content: space-between;
+    width: 5.5vw;
+    position: absolute;
+    transform: translateX(30vw);
+}
+
+.footer .social img {
+    height: 1.2vw;
+}
+
+@media (max-width: 1500px) {
+    nav .navbar_logo {
+        width: 150px;
+        height: 70px;
+    }
+
+    nav .info > .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    nav .get_info,  nav .info > span {
+        font-size: 29px;
+    }
+
+    .trans_nav > ul a {
+        font-size: 14px;
+    }
+}
