@@ -17,3 +17,8 @@
     font-family: Montserrat-light;
     src: url(../assets/fonts/Montserrat-Light.ttf);
 }
+
+@font-face {
+    font-family: Gotham-regular;
+    src: url(../assets/fonts/Gotham-regular.ttf);
+}

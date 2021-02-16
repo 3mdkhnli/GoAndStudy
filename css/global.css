@@ -10,24 +10,26 @@
 
 nav {
     width: 100%;
-    height: 140px;
+    height: 7.81vw;
     display: flex;
     justify-content: center;
+    max-height: 150px;
 }
 
 nav > .inner {
     width: 100%;
     max-width: 1920px;
-    height: 140px;
+    height: 7.81vw;
     background: #339BD6;
-    padding: 0 4%;  
+    padding: 0 4%;
     display: flex;
-    align-items: center;  
+    align-items: center;
+    max-height: 150px;
 }
 
 nav .navbar_logo {
-    width: 179px;
-    height: 88.35px;
+    width: 9.32vw;
+    height: 4.58vw;
     background: url(../assets/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -42,8 +44,8 @@ nav .info {
 }
 
 nav .info > .icon {
-    width: 41.8px;
-    height: 41.8px;
+    width: 2.17vw;
+    height: 2.17vw;
     background: url(../assets/icons/whatsapp-brands.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -51,13 +53,14 @@ nav .info > .icon {
 }
 
 nav .info > span {
-    font-size: 34px;
+    font-size: 1.77vw;
     color: #fff;
-    margin-left: 15px;
+    margin-left: 0.8vw;
+    white-space: nowrap;
 }
 
 nav .get_info {
-    font-size: 34px;
+    font-size: 1.77vw;
     color: #FFD129;
     font-family: Montserrat;
     font-weight: 600;
@@ -71,8 +74,8 @@ nav .lang_bar {
 }
 
 nav .lang_bar a {
-    width: 28px;
-    height: 28px;
+    width: 1.45vw;
+    height: 1.45vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,12 +88,12 @@ nav .lang_bar a span {
 }
 
 nav .lang_bar a:nth-child(1), nav .lang_bar a:nth-child(2) {
-    margin-right: 10px;
+    margin-right: 0.52vw;
 }
 
 nav .lang_bar a .icon {
-    width: 24px;
-    height: 24px;
+    width: 1.25vw;
+    height: 1.25vw;
     border-radius: 100%;
     background-position: center!important;
     background-repeat: no-repeat!important;
@@ -110,56 +113,63 @@ nav .lang_bar .ru .icon {
 }
 
 .choosen_lang {
-    width: 90.6px!important;
-    height: 34.5px!important;
+    width: 4.7vw!important;
+    height: 1.79vw!important;
     background: #fff!important;
-    border-radius: 16px!important;
+    border-radius: 0.833vw!important;
 }
 
 nav .lang_bar .choosen_lang span {
     display: block!important;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-family: Montserrat-bold;
     color: #707070;
-    margin-left: 15px;
+    margin-left: 0.78vw;
 }
 
 nav .social {
     margin-left: 4%;
 }
 
+nav .social img {
+   height: 1.57vw;
+}
+
 nav .social a:nth-child(1), nav .social a:nth-child(2) {
-    margin-right: 10px;
+    margin-right: 0.52vw;
 }
 
 .trans_nav {
     width: 100%;
-    height: 108px;
+    height: 5.625vw;
     display: flex;
     justify-content: center;
     background: transparent;
     position: absolute;
-    top: 140px;
+    top: 7.29vw;
+    z-index: 100;
+    max-height: 108px;
 }
 
 .trans_nav > ul {
     width: 100%;
     max-width: 1920px;
-    height: 108px;
+    height: 5.625vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4%;
+    max-height: 108px;
 }
 
 .trans_nav > ul a {
-    padding: 10px;
-    border-radius: 37px;
+    padding: 0.8vw;
+    border-radius: 1.9vw;
     background: #339BD6;
     transition: all 0.1s;
-    font-size: 17px;
     font-family: Montserrat-bold;
     color: #fff;
+    font-size: 0.9vw;
 }
 
 .trans_nav > ul a:hover {
@@ -171,31 +181,29 @@ nav .social a:nth-child(1), nav .social a:nth-child(2) {
     height: auto;
     display: flex;
     justify-content: center;
+    margin-top: 4vw;
 }
 
 .footer > .inner {
     width: 100%;
     max-width: 1920px;
-    height: 28vw;
+    height: 37vw;
     display: flex;
     flex-direction: column;
-    background: #339BD6;
-    transform: translateY(18vw);
     align-items: center;
-    padding-top: 3.22vw;
+    z-index: 2;
 }
 
 .footer > .inner > .bg {
     width: 100%;
-    height: 46vw;
-    background: url(../assets/bg/header-bg\ 2.svg);
+    height: 37vw;
+    background: url(../assets/bg/Group\ 53.svg);
     max-width: 1920px;
-    position: absolute;
     z-index: 1;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 0;
+    position: absolute;
 }
 
 .footer .footer_nav {
@@ -204,6 +212,7 @@ nav .social a:nth-child(1), nav .social a:nth-child(2) {
     display: flex;
     justify-content: space-between;
     z-index: 2;
+    margin-top: 2vw;
 }
 
 .footer .footer_nav > .inner {
@@ -256,11 +265,12 @@ nav .social a:nth-child(1), nav .social a:nth-child(2) {
 
 .footer .copy_right {
     display: flex;
-    margin-top: 1vw;
     font-size: 0.94vw;
     font-family: Montserrat-light;
     color: #fff;
     z-index: 2;
+    position: absolute;
+    transform: translateY(34vw);
 }
 
 .footer .social {
@@ -275,22 +285,387 @@ nav .social a:nth-child(1), nav .social a:nth-child(2) {
     height: 1.2vw;
 }
 
-@media (max-width: 1500px) {
+.hamburger_button, .hamburger {
+    display: none;
+}
+
+.multi {
+    display: flex;
+}
+
+.footer .info, .footer .get_info {
+    display: none;
+}
+
+@media (min-width: 1920px) {
+    .trans_nav > ul a {
+       padding: 15px;
+       border-radius: 37px;
+       font-size: 17px;
+    }
+
+    .trans_nav {
+        top: 150px;
+    }
+
     nav .navbar_logo {
-        width: 150px;
-        height: 70px;
+        width: 179px;
+        height: 88px;
     }
 
     nav .info > .icon {
-        width: 35px;
-        height: 35px;
+        width: 41.6px;
+        height: 41.6px;
     }
 
-    nav .get_info,  nav .info > span {
+    nav .info > span {
+        font-size: 34px;
+        margin-left: 15px;
+    }
+
+    nav .get_info {
+        font-size: 34px;
+    }
+
+    nav .lang_bar a {
+        width: 27.8px;
+        height: 27.8px;
+    }
+
+    nav .lang_bar a:nth-child(1), nav .lang_bar a:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    nav .lang_bar a .icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .choosen_lang {
+        width: 90px!important;
+        height: 34.3px!important;
+        border-radius: 16px!important;
+    }
+
+    nav .lang_bar .choosen_lang span {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    nav .social {
+        margin-left: 4%;
+    }
+
+    nav .social img {
+       height: 33.6px;
+    }
+
+    nav .social a:nth-child(1), nav .social a:nth-child(2) {
+        margin-right: 0.52vw;
+    }
+
+    .footer {
+        margin-top: 77px;
+    }
+
+    .footer > .inner {
+        height: 710px;
+    }
+
+    .footer > .inner > .bg {
+        height: 710px;
+    }
+
+    .footer .footer_nav {
+        width: 1245px;
+        margin-top: 38.4px;
+    }
+
+    .footer .footer_nav > .inner {
+        width: 922px;
+    }
+
+    .footer .footer_nav > .logo {
+        width: 192px;
+        height: 88px;
+        background: url(../assets/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer .footer_nav > .inner > a {
+        font-size: 17px;
+    }
+
+    .footer .places {
+        width: 1245px;
+        margin-top: 58px;
+    }
+
+    .footer .places .place_name {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .footer .places ul li {
+        font-size: 18px;
+    }
+
+    .footer .copy_right {
+        font-size: 18px;
+        transform: translateY(659px);
+    }
+
+    .footer .social {
+        width: 105px;
+        transform: translateX(576px);
+    }
+
+    .footer .social img {
+        height: 23px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    nav {
+        height: 127px;
+    }
+
+    nav > .inner {
+        height: 127px;
+        justify-content: space-between;
+    }
+
+    .trans_nav {
+        display: none;
+    }
+
+    nav .navbar_logo {
+        width: 134px;
+        height: 66px;
+    }
+
+    nav .hamburger_button {
+        display: block;
+        width: 43.5px;
+        height: 28.3px;
+        background: url(../assets/icons/hamburger.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .hamburger {
+        display: none;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        background: #339BD6;
+        width: 100%;
+        padding: 20px 4%;
+        position: absolute;
+        z-index: 2000;
+        top: 127px;
+        left: 0;
+    }
+
+    .multi {
+        display: none!important;
+    }
+
+    .hamburger .lang_soc {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lang_soc .lang_bar {
+        display: flex;
+        align-items: center;
+    }
+
+    .lang_soc .lang_bar a {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 100%;
+    }
+
+    .lang_soc .lang_bar a span {
+        display: none;
+    }
+
+    .lang_soc .lang_bar a:nth-child(1), .lang_soc .lang_bar a:nth-child(2) {
+        margin-right: 15px;
+    }
+
+    .lang_soc .lang_bar a .icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-position: center!important;
+        background-repeat: no-repeat!important;
+        background-size: cover!important;
+    }
+
+    .lang_soc .lang_bar .az .icon {
+        background: url(../assets/flags/az.svg)
+    }
+
+    .lang_soc .lang_bar .en .icon {
+        background: url(../assets/flags/uk.svg)
+    }
+
+    .lang_soc .lang_bar .ru .icon {
+        background: url(../assets/flags/ru.svg)
+    }
+
+    .choosen_lang {
+        width: 76px!important;
+        height: 29px!important;
+        background: #fff!important;
+        border-radius: 16px!important;
+    }
+
+    .lang_soc .lang_bar .choosen_lang span {
+        display: block!important;
+        font-size: 17px;
+        font-family: Montserrat-bold;
+        color: #707070;
+        margin-left: 10px;
+    }
+
+    .lang_soc .social img {
+       height: 29px;
+    }
+
+    .lang_soc .social a:nth-child(1), .lang_soc .social a:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    .hamburger ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hamburger li {
+        line-height: 2
+    }
+
+    .hamburger li a{
+        font-size: 27px;
+        font-family: Gotham-regular;
+        color: #fff;
+    }
+
+    .hamburger .get_info {
+        width: 250px;
+        height: 55px;
+        font-size: 27px;
+        font-family: Gotham-regular;
+        border-radius: 26px;
+        background: #FFD129;
+        color: #339BD6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .footer {
+        width: 100%;
+        margin-top: 30px;
+        background: #339BD6;
+    }
+
+    .footer > .inner {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer > .inner > .bg {
+        display: none;
+    }
+
+    .footer .footer_nav {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .footer .footer_nav > .inner {
+        display: none;
+    }
+
+    .footer .footer_nav > .logo {
+        width: 134px;
+        height: 66px;
+    }
+
+    .footer .places {
+        display: none;
+    }
+
+    .footer .copy_right {
+        flex-direction: column-reverse;
+        font-size: 12px;
+        font-family: Gotham-regular;
+        position: relative;
+        transform: translateY(0);
+        padding-bottom: 10px;
+    }
+
+    .footer .social {
+        width: 85px;
+        position: relative;
+        transform: translateX(0);
+        margin: 20px 0;
+    }
+
+    .footer .social img {
+        height: 19.5px;
+    }
+
+    .footer .info {
+        display: flex;
+        align-items: center;
+        font-family: Gotham-regular;
+        margin-top: 20px;
+    }
+
+    .footer .info > .icon {
+        width: 34.3px;
+        height: 34.3px;
+        background: url(../assets/icons/whatsapp-brands.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .footer .info > span {
+        font-size: 28px;
+        color: #fff;
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+
+    .footer .get_info {
         font-size: 29px;
-    }
-
-    .trans_nav > ul a {
-        font-size: 14px;
+        color: #FFD129;
+        font-family: Gotham-regular;
+        font-weight: normal;
+        display: block;
+        margin-top: 20px;
     }
 }
