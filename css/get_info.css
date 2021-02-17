@@ -1,0 +1,253 @@
+.info_content {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.info_content > .inner {
+	width: 100%;
+	max-width: 1920px;
+	height: 42.9vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-height: 824px;
+	margin-top: 5.625vw;
+}
+
+.info_content .text_content {
+	width: 59.79vw;
+	height: 42.9vw;
+	max-height: 824px;
+	background: url(../assets/bg/e_learning.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 3vw;
+}
+
+.info_content .text_content p {
+	font-size: 2.5vw;
+	font-family: Gotham-regular;
+	color: #fff;
+}
+
+.info_content .form_content {
+	width: 40.21vw;
+	height: 42.9vw;
+	max-height: 824px;
+	background: #FFD129;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.info_content form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info_content form .title {
+	font-size: 2.5vw;
+	color: #000;
+	font-family: Gotham-regular;
+	margin-top: 2vw;
+}
+
+.info_content form label {
+	width: 34.68vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1vw;
+}
+
+.info_content form input {
+	width: 16.15vw;
+	height: 3.4375vw;
+	border-radius: 0.78vw;
+	border: none;
+	outline: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0.15vw 0.3vw;
+	padding: 0 1.3vw;
+	font-size: 1.72vw;
+	font-family: Gotham-regular;
+}
+
+.info_content form textarea {
+	width: 34.68vw;
+	height: 19.32vw;
+	border-radius: 1.77vw;
+	border: none;
+	outline: none;
+	resize: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0.15vw 0.3vw;
+	padding: 1.3vw;
+	font-size: 1.72vw;
+	font-family: Gotham-regular;
+	margin-top: 1vw;
+}
+
+.info_content form button {
+	width: 12.5vw;
+	height: 2.76vw;
+	border-radius: 0.9375vw;
+	background: #339BD6;
+	border: none;
+	outline: none;
+	font-size: 1.927vw;
+	color: #fff;
+	font-size: Gotham-regular;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.2vw;
+	transition: 0.1s all;
+}
+
+.info_content form button:hover {
+	background: #29C4FF;
+}
+
+@media (min-width: 1920px) {
+	.info_content > .inner {
+		margin-top: 108px;
+	}
+
+	.info_content .text_content {
+		width: 1148px;
+		padding: 57.6px;
+	}
+
+	.info_content .text_content p {
+		font-size: 48px;
+		font-family: Gotham-regular;
+		color: #fff;
+	}
+
+	.info_content .form_content {
+		width: 772px;
+	}
+
+	.info_content form .title {
+		font-size: 48px;
+		margin-top: 38.4px;
+	}
+
+	.info_content form label {
+		width: 666px;
+		margin-top: 19.2px;
+	}
+
+	.info_content form input {
+		width: 310px;
+		height: 66px;
+		border-radius: 15px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		padding: 0 25px;
+		font-size: 33px;
+	}
+
+	.info_content form textarea {
+		width: 666px;
+		height: 371px;
+		border-radius: 34px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		padding: 0 25px;
+		font-size: 33px;
+		margin-top: 19.2px;
+	}
+
+	.info_content form button {
+		width: 240px;
+		height: 53px;
+		border-radius: 18px;
+		font-size: 37px;
+		margin-top: 23.04px;
+		transition: 0.1s all;
+	}
+}
+
+@media (max-width: 767px) {
+	.info_content {
+		margin-bottom: -30px;
+	}
+
+	.info_content > .inner {
+		height: 694px;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+	}
+
+	.info_content .text_content {
+		width: 100%;
+		height: 269px;
+		padding: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.info_content .text_content p {
+		font-size: 22px;
+		width: 324px;
+	}
+
+	.info_content .form_content {
+		width: 100%;
+		height: 450px;
+	}
+
+	.info_content form .title {
+		font-size: 32px;
+		margin-top: 15px;
+		color: #fff;
+	}
+
+	.info_content form label {
+		width: 324px;
+		margin-top: 12px;
+	}
+
+	.info_content form input {
+		width: 151px;
+		height: 33px;
+		border-radius: 15px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		padding: 0 15px;
+		font-size: 14px;
+	}
+
+	.info_content form textarea {
+		width: 324px;
+		height: 179px;
+		border-radius: 26px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		padding: 15px;
+		font-size: 14px;
+		margin-top: 12px;
+	}
+
+	.info_content form button {
+		width: 183px;
+		height: 41px;
+		border-radius: 18px;
+		font-size: 28px;
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 400px) { 
+	.info_content .text_content p {
+		font-size: 19px;
+		width: 291.6px;
+	}
+
+	.info_content form {
+		transform: scale(0.9);
+	}
+}
