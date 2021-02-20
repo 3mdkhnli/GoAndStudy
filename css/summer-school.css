@@ -1,0 +1,240 @@
+.summer_school_content {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.summer_school_content > .inner {
+	width: 100%;
+	max-width: 1920px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 6vw;
+}
+
+.summer_school_content > .inner > .title {
+	font-size: 5vw;
+	color: #339BD6;
+	font-family: Gotham-regular;
+	border-bottom: 0.21vw solid #339BD6;
+	padding: 0 2.1vw;
+	margin-bottom: 2vw;
+}
+
+.summer_school_content .summer_inner {
+	width: 91.92%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.summer_school_content .summer_inner .img {
+	width: 42.81vw;
+	height: 39.97vw;
+	background: url(../assets/bg/summer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 822px;
+	max-height: 767px;
+}
+
+.summer_school_content .summer_info {
+	width: 50%;
+	height: auto;
+	font-size: 1.146vw;
+	font-family: Gotham-regular;
+	color: #000;
+}
+
+.summer_school_content .summer_info .summer_carousel {
+    width: 40vw;
+    max-width: 768px;
+    height: 6.51vw;
+    max-height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3vw;
+    justify-content: center;
+}
+
+.summer_school_content .summer_info .famous {
+    margin-top: 8vw;
+    font-size: 1.5625vw;
+    font-family: Gotham-regular;
+    color: #000;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.summer_school_content .summer_info .summer_carousel .item {
+    width: 9.42vw;
+    max-width: 181px;
+    height: 6.51vw;
+    max-height: 125px;
+    margin: auto;
+}
+
+.summer_school_content .summer_info .summer_carousel .item img {
+    width: 9.42vw;
+    max-width: 181px;
+    height: 6.51vw;
+    max-height: 125px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.summer_school_content .controls_top {
+	width: 46.59vw;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+}
+
+.summer_prev {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 7.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+.summer_next {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 8.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+
+@media (min-width: 1920px) {
+	.summer_school_content > .inner {
+		padding-top: 115px;
+	}
+
+	.summer_school_content > .inner > .title {
+		font-size: 96px;
+		border-bottom: 4px solid #339BD6;
+		padding: 0 40px;
+		margin-bottom: 38.4px;
+	}
+
+	.summer_school_content .summer_info {
+		font-size: 22px;
+	}
+
+    .summer_school_content .controls_top {
+		width: 894.5px;
+	}
+
+	.summer_prev {
+	    width: 47px;
+	    height: 94px;
+	}
+
+	.summer_next {
+	    width: 47px;
+	    height: 94px;
+	}
+
+    .summer_school_content .summer_info .summer_carousel {
+        margin-left: 57.6px;
+    }
+
+    .summer_school_content .summer_info .famous {
+        margin-top: 153.6px;
+        font-size: 30px;
+        margin-bottom: 38.4px;
+    }
+}
+
+@media (max-width: 767px) {
+	.summer_school_content > .inner {
+		padding-top: 6vw;
+	}
+
+	.summer_school_content > .inner > .title {
+		font-size: 29px;
+		color: #339BD6;
+		border-bottom: 4px solid #339BD6;
+		padding: 0 10px;
+		margin-bottom: 30px;
+	}
+
+	.summer_school_content .summer_inner {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 0 4%;
+	}
+
+	.summer_school_content .summer_inner .img {
+		width: 309px;
+		height: 189px;
+	}
+
+	.summer_school_content .summer_info {
+		font-size: 14px;
+		width: 309px;
+		margin-top: 20px;
+        margin-bottom: 40px;
+	}
+
+    .summer_school_content .summer_info .famous {
+        margin-top: 70px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .summer_school_content .summer_info .summer_carousel {
+        width: 291px;
+        height: 65px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .summer_school_content .summer_info .summer_carousel .item {
+        width: 92px;
+        height: 65px;
+    }
+
+    .summer_school_content .summer_info .summer_carousel .item img {
+        width: 92px;
+        height: 65px;
+    }
+
+    .summer_school_content .controls_top {
+    	width: 348px;
+    }
+
+    .summer_prev {
+        width: 20px;
+        height: 40px;
+        background: url(../assets/icons/Polygon\ 7.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+    	cursor: pointer;
+    }
+
+    .summer_next {
+        width: 20px;
+        height: 40px;
+        background: url(../assets/icons/Polygon\ 8.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+    	cursor: pointer;
+    }
+}

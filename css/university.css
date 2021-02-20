@@ -1,0 +1,424 @@
+.university_content {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.university_content .inner {
+	width: 100%;
+	min-height: 58.38vw;
+	max-width: 1920px;	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url(../assets/bg/bgsearch.svg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -4vw;
+}
+
+.university_content .inner .search_bar {
+	width: 81vw;
+	height: 5.9vw;
+	border-radius: 2.8125vw;
+	background: #FFD129;
+	margin-top: 8vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 3vw;
+}
+
+.university_content label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+.university_content label span {
+	color: #339BD6;
+	font-size: 2.13vw;
+	font-family: Gotham-regular;
+	margin-right: 1.5vw;
+}
+
+.university_content input {
+	width: 14.68vw;
+	height: 2.86vw;
+	border-radius: 1.61vw;
+	outline: none;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0.15vw 0.3vw;
+	font-family: Gotham-regular;
+	font-size: 1.8vw;
+	color: #000;
+	padding: 0 1vw;
+}
+
+.university_content label:nth-child(2) input {
+	width: 22.86vw;
+}
+
+.university_content button {
+	width: 11.56vw;
+	height: 2.86vw;
+	border-radius: 1.61vw;
+	background: #339BD6;
+	outline: none;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.16) 0 0.15vw 0.3vw;
+	font-family: Gotham-regular;
+	font-size: 1.8vw;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.1s all;
+}
+
+.university_content button:hover {
+	background: #29C4FF;
+}
+
+.university_content .university {
+	width: 81vw;
+	min-height: 36.45vw;
+	background: rgba(255, 255, 255, 0.73);
+	margin-top: 5vw;
+	display: flex;
+	flex-direction: column;
+	padding: 0 3vw;
+	padding-top: 2.2vw;
+	margin-bottom: 4vw;
+}
+
+.university_content .university .u_top {
+	width: 100%;
+	display: flex;
+}
+
+.university_content .university .u_top > div {
+	display: flex;
+	height: auto;
+}
+
+.university_content .university .uni_country {
+	width: 37%;
+}
+
+.university_content .university .u_top span {
+	font-size: 2.08vw;
+	font-family: Gotham-regular;
+	color: #000;
+	margin-right: 2.5vw;
+	height: auto;
+}
+
+.university_content .university .u_bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 2vw;
+}
+
+.university_content .university .u_bottom .text_content {
+	width: 31.6vw;
+	font-size: 0.9375vw;
+	font-family: Gotham-regular;
+	color: #000;
+	padding-bottom: 4vw;
+}
+
+.university_content .university .u_top > div > div {
+	font-size: 2.08vw;
+	font-family: Gotham-regular;
+	color: #339BD6;
+	height: auto;
+}
+
+.university_content .university .u_bottom .owl-carousel {
+	width: 26.66vw;
+	height: 21.51vw;
+}
+
+.university_content .university .u_bottom .owl-carousel img {
+	width: 26.66vw;
+	height: 21.51vw;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 1.92vw;
+}
+
+.u_images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 4vw;
+}
+
+.university_content .controls_top {
+	width: 35vw;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+}
+
+.uni_prev {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 7.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+.uni_next {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 8.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+@media (min-width: 1920px) {
+	.university_content .inner {
+		min-height: 1121px;
+		margin-bottom: -76.8px;
+	}
+
+	.university_content .inner .search_bar {
+		width: 1555px;
+		height: 114px;
+		border-radius: 54px;
+		margin-top: 153.6px;
+		padding: 0 57.6px;
+	}
+
+	.university_content label span {
+		font-size: 41px;
+		margin-right: 28.8px;
+	}
+
+	.university_content input {
+		width: 282px;
+		height: 55px;
+		border-radius: 31px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		font-size: 34.56px;
+		padding: 0 19.2px;
+	}
+
+	.university_content label:nth-child(2) input {
+		width: 438px;
+	}
+
+	.university_content button {
+		width: 222px;
+		height: 55px;
+		border-radius: 31px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		font-size: 34.56px;
+	}
+
+	.university_content .university {
+		width: 1555px;
+		min-height: 701px;
+		margin-top: 96px;
+		padding: 0 57.6px;
+		padding-top: 42.24px;
+		margin-bottom: 76.8px;
+	}
+
+	.university_content .university .u_top span {
+		font-size: 40px;
+		margin-right: 48px;
+	}
+
+	.university_content .university .u_top > div > div {
+		font-size: 40px;
+	}
+
+	.university_content .university .u_bottom {
+		margin-top: 38.4px;
+	}
+
+	.university_content .university .u_bottom .text_content {
+		width: 607px;
+		font-size: 18px;
+		padding-bottom: 76.8px;
+	}
+
+	.university_content .university .u_bottom .owl-carousel {
+		width: 512px;
+		height: 413px;
+	}
+
+	.university_content .university .u_bottom .owl-carousel img {
+		width: 512px;
+		height: 413px;
+		border-radius: 37px;
+	}
+
+	.u_images {
+		margin-right: 40.8px;
+	}
+
+	.university_content .controls_top {
+		width: 672px;
+	}
+
+	.uni_prev {
+	    width: 47px;
+	    height: 94px;
+	}
+
+	.uni_next {
+	    width: 47px;
+	    height: 94px;
+	}
+}
+
+@media (max-width: 767px) {
+	.university_content .inner {
+		width: 100%;
+		min-height: 395px;
+		margin-bottom: -30px;
+	}
+
+	.university_content .inner .search_bar {
+		width: 337px;
+		height: 194px;
+		border-radius: 0;
+		background: #F9E284;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.university_content label {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0;
+	}
+
+	.university_content label span {
+		display: none;
+	}
+
+	.university_content input {
+		width: 321px;
+		height: 45px;
+		border-radius: 31px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		font-size: 23px;
+		padding: 0 20px;
+		margin-bottom: 10px;
+	}
+
+	.university_content label:nth-child(2) input {
+		width: 321px;
+	}
+
+	.university_content button {
+		width: 124px;
+		height: 31px;
+		border-radius: 31px;
+		box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+		font-size: 22px;
+		margin-top: 10px;
+	}
+
+	.university_content .university {
+		width: 349px;
+		min-height: 395px;
+		margin-top: 20px;
+		padding: 0 20px;
+		padding-top: 17px;
+		margin-bottom: 30px;
+	}
+
+	.university_content .university .u_top {
+		width: 337px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.university_content .university .u_top > div {
+		display: flex;
+		height: auto;
+	}
+
+	.university_content .university .uni_country {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.university_content .university .u_top span {
+		font-size: 14px;
+		margin-right: 10px;
+	}
+
+	.university_content .university .u_bottom {
+		margin-top: 15px;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.university_content .university .u_bottom .text_content {
+		width: 323px;
+		font-size: 14px;
+		padding-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.university_content .university .u_top > div > div {
+		font-size: 14px;
+	}
+
+	.university_content .university .u_bottom .owl-carousel {
+		width: 218px;
+		height: 175px;
+	}
+
+	.university_content .university .u_bottom .owl-carousel img {
+		width: 218px;
+		height: 175px;
+		border-radius: 20px;
+	}
+
+	.u_images {
+		margin-right: 0;
+	}
+
+	.university_content .controls_top {
+		width: 296px;
+	}
+
+	.uni_prev {
+	    width: 20px;
+	    height: 40px;
+	}
+
+	.uni_next {
+		width: 20px;
+		height: 40px;
+	}
+}
+
+@media (max-width: 374px) {
+	.university_content .inner .search_bar {
+		transform: scale(0.9);
+	}
+
+	.university_content .university {
+		transform: scale(0.9);
+		margin-top: 10px;
+	}
+}

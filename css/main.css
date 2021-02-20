@@ -39,6 +39,7 @@
     border-radius: 100%;
     background: #fff;
     margin: 0 1vw;
+    cursor: pointer;
 }
 
 .header .carousel-indicators .active {
