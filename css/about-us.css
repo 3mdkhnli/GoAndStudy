@@ -1,0 +1,288 @@
+.about_content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+.about_content .inner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.about_content .inner > img {
+    width: 36.6vw;
+    height: 22.44vw;
+    object-fit: cover;
+    object-position: center;
+    max-width: 704px;
+    max-height: 431px;
+}
+
+.about_content .inner .about_title {
+    font-size: 1.92vw;
+    font-family: Gotham-regular;
+    color: #339BD6;
+    margin-top: 1vw;
+}
+
+.about_content .inner .text_content {
+    width: 55.46vw;
+    height: auto;
+    font-size: 1.145vw;
+    font-family: Gotham-regular;
+    color: #000;
+    max-width: 1065px;
+    margin-top: 1vw;
+}
+
+.team_carousel {
+    width: 54.94vw;
+    height: 29.53vw;
+    max-width: 1055px;
+    max-height: 567px;
+    background: url(../assets/bg/whoami_carousel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team_carousel .carousel_title {
+    font-size: 1.61vw;
+    color: #fff;
+    font-family: Gotham-regular;
+    margin-top: 1vw;
+    border-bottom: 0.1vw solid #fff;
+    padding: 0 0.3vw;
+}
+
+#team_carousel {
+    width: 44.89vw;
+    height: 7.03125vw;
+    max-width: 862px;
+    max-height: 135px;
+}
+
+#team_carousel .item {
+    width: 7.03125vw;
+    height: 7.03125vw;
+    max-width: 135px;
+    max-height: 135px;
+    border: 0.12vw solid #fff;
+    border-radius: 100%;
+    margin: auto;
+}
+
+#team_carousel .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team_carousel_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7vw;
+    flex-direction: column;
+}
+
+.team_carousel_inner .controls-top {
+    width: 51vw;
+    margin-top: 0;
+    max-width: 980px;
+}
+
+.team_prev {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 7.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+.team_next {
+    width: 2.445vw;
+    height: 4.89vw;
+    background: url(../assets/icons/Polygon\ 8.svg);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	cursor: pointer;
+}
+
+#team_carousel2 {
+    width: 44.89vw;
+    height: 13.125vw;
+    max-width: 862px;
+    max-height: 252px;
+    margin-top: 2vw;
+}
+
+#team_carousel2 .item {
+    width: 44.89vw;
+    height: 13.125vw;
+    max-width: 862px;
+    max-height: 252px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#team_carousel2 .item .img {
+    width: 13.125vw;
+    height: 13.125vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.16vw solid #fff;
+    padding: 0.2vw;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+#team_carousel2 .item .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+#team_carousel2 .item .team_user_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+#team_carousel2 .item .team_user_info .name {
+    font-size: 1.718vw;
+    font-family: Gotham-regular;
+    color: #fff;
+    margin-top: 0.7vw;
+}
+
+#team_carousel2 .item .team_user_info .title {
+    font-size: 1.354vw;
+    font-family: Gotham-regular;
+    color: #fff;
+    margin-top: 0.5vw;
+}
+
+#team_carousel2 .item .team_user_info .text {
+    font-size: 0.73vw;
+    font-family: Gotham-regular;
+    color: #fff;
+    margin-top: 0.5vw;
+}
+
+@media (min-width: 1920px) {
+    .about_content {
+        margin-top: 153.6px;
+    }
+
+    .about_content .inner .about_title {
+        font-size: 37px;
+        margin-top: 19.2px;
+    }
+
+    .about_content .inner .text_content {
+        font-size: 22px;
+        margin-top: 19.2px;
+    }
+
+    .team_prev {
+        width: 47px;
+        height: 94px;
+    }
+
+    .team_next {
+        width: 47px;
+        height: 94px;
+    }
+
+    #team_carousel .item {
+        border: 2px solid #fff;
+    }
+
+    .team_carousel {
+        margin-top: 134.4px;
+    }
+    .team_carousel .carousel_title {
+        font-size: 31px;
+        margin-top: 19.2px;
+        border-bottom: 2px solid #fff;
+        padding: 0 5.76px;
+    }
+
+    .team_carousel_inner {
+        margin-top: 32.64px;
+    }
+
+    #team_carousel2 {
+        margin-top: 38.4px;
+    }
+
+    #team_carousel2 .item .img {
+        width: 135px;
+        height: 135px;
+        border: 0.3px solid #fff;
+        padding: 3.84px;
+    }
+
+    #team_carousel2 .item .team_user_info {
+        margin-left: 18.4px;
+    }
+
+    #team_carousel2 .item .team_user_info .name {
+        font-size: 33px;
+        margin-top: 13.44px;
+    }
+
+    #team_carousel2 .item .team_user_info .title {
+        font-size: 26px;
+        margin-top: 9.1px;
+    }
+
+    #team_carousel2 .item .team_user_info .text {
+        font-size: 14px;
+        margin-top: 9.1px;
+    }
+}
+
+@media (max-width: 767px) {
+    .team_carousel {
+        display: none;
+    }
+
+    .about_content .inner > img {
+        width: 309px;
+        height: 189px;
+    }
+
+    .about_content .inner .about_title {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .about_content .inner .text_content {
+        width: 309px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 90px;
+    }
+}
